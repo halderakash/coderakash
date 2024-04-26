@@ -1,0 +1,85 @@
+/* Responsive Css Here */
+
+
+
+
+/* ==============================
+ Media Screen 768px to 991px 
+ =================================*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* ========= Home ==========*/
+
+    .rainbow-address{
+        margin-top: 0;
+    }
+    .hidden-testmonial-area {
+        width: 100% !important;
+        max-width: 90vw !important;
+    }
+
+    /*========= Portfolio ========== */
+
+    .portfolio-single-title{
+        font-size: 30px !important;
+    }
+
+}
+
+
+/* ==============================
+ Media Screen 320px to 767px 
+ =================================*/
+
+ @media only screen and (max-width: 767px) {
+    /*==========Header & Footer =============*/
+    .footer-style-default .footer-top{
+        padding-bottom: 20px;
+    }
+    .footer-style-default .footer-top {
+        padding: 30px 0;
+    }
+
+    .clltoaction-style-default.style-7 .content-wrapper {
+        padding: 0;
+    }
+
+    /* ========= Home ==========*/
+
+    .height-750{
+        height: 380px;
+    }
+    .about-style-5 .about-wrapper .content .inner p {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .hidden-testmonial-area {
+        width: 100% !important;
+        max-width: 90vw !important;
+    }
+    .test-popup-close-button{
+        padding:1rem!important
+    }
+
+    .rainbow-address{
+        text-align: center;
+    }
+    /*============= Blog Archive ===========*/
+    .archive-pg-30{
+        padding-bottom: 30px;
+    }
+    /*============= Blog Single ===========*/
+    .blog-single-pg{
+        padding-top: 40px;
+    }
+
+    /*========= Portfolio ========== */
+
+    .portfolio-single-title{
+        font-size: 22px !important;
+    }
+
+
+ }
