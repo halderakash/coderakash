@@ -99,3 +99,6 @@ add_filter( 'admin_post_thumbnail_html', 'filter_featured_image_admin_text', 10,
 
 //Custom Meta box in menu
 require_once(get_template_directory().'/inc/nav-menu-metabox.php');
+
+//Update Theme Version From Github
+require_once(get_template_directory().'/inc/coderakash-update.php');

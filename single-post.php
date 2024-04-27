@@ -7,7 +7,7 @@
                         <div class="col-lg-8 offset-lg-2">
                             <div class="content text-center">
                                 <div class="page-title">
-                                    <h1 class="theme-gradient"><?php echo get_the_title(); ?></h1>
+                                    <h1 class="theme-gradient portfolio-single-title"><?php echo get_the_title(); ?></h1>
                                 </div>
                                 <ul class="rainbow-meta-list">
                                     <li>
